@@ -1,9 +1,27 @@
 h1  {
-  font-size: 5em;
+  font-size: 3em;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: aquamarine;
 }
 
 h3 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 2em;
+  font-size: 1em;
+  margin-left: 5em;
+  margin-right: 5em;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  background-color:#ADD8E6;
+  border: black;
+}
+
+h5 {
+  opacity: .33;
+  padding-top: 24em;
 }
