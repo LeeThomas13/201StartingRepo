@@ -19,8 +19,8 @@ alert('please enter yes or no');
 
 }
 
-var bornWashington = prompt( 'Well ' + userName + ' was I born in Washington D.C.?')
-console.log ('was i born in washington d.c.? ' + bornWashington )
+var bornWashington = prompt( 'Well ' + userName + ' have I lived in a city called Loveland?')
+console.log ('have i lived in Loveland ' + bornWashington )
 if(bornWashington.toLowerCase() === 'yes' || bornWashington === 'y'){
 alert('Your are correct! good job.')
 }else if(bornWashington.toLowerCase() === 'no' || bornWashington === 'n'){
@@ -62,6 +62,22 @@ if(smash.toLowerCase() === 'yes' || smash === 'y'){
   alert('i give up');
 }
 
-alert('Well thats it for the guessing game, here\'s a little website about me')
+var numArray = ['1' + '2' + '3' + '4' + '5' + '6' + '7' + '8' + '9' + '10' + '11' + '12' + '13' + '14' + '15' + '16' + '17' + '18' + '19' + '20']
+
+var guessNum = prompt ('Ok ' + userName + ' guess a number between 1-20, you have 4 attempts')
+
+while(guessNum < 12){
+  alert('too low! you have 3 attempts left.');
+}
+
+while(guessNum > 12){
+  alert('too high! you have 3 attempts left.');
+}
+
+while(guessNum === 12){
+  alert('correct!');
+}
+
+
 
 
