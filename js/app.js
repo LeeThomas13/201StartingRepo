@@ -14,9 +14,8 @@ alert('Cool\! Lets get started.');
 }else if(game.toLowerCase() === 'no' || game.toLowerCase() === 'n'){
 alert('bummer\, well you\'re on my website so you dont have a choice >:(');
 
-}else {
+}else{
 alert('please enter yes or no');
-
 }
 
 var bornWashington = prompt( 'Well ' + userName + ' have I lived in a city called Loveland?')
@@ -62,8 +61,6 @@ if(smash.toLowerCase() === 'yes' || smash.toLowerCase() === 'y'){
   alert('i give up');
 }
 
-alert('Ok ' + userName + ' thats all the questions I have for you!')
-
 var numAnswer = 13
 
 var numTries = 1
@@ -77,8 +74,8 @@ for (var i=0; i<4; i++){
     numTries++;
     alert('Too high!');
   } else if (parseInt(myNum) === numAnswer){
-  alert('Good Job! You guessed correctly in ' + numTries + ' attempts!');
-  break;
+    alert('Good Job! You guessed correctly in ' + numTries + ' attempts!');
+    break;
   }
   if (i === 3){
     alert('You are out of guesses :( the number was 13');
@@ -109,3 +106,5 @@ for(var i=0; i<7; i++){
     break;
   }
 }
+
+alert('Ok ' + userName + ' thats all the questions I have for you!')
