@@ -72,7 +72,7 @@ function Ness(){
   console.log('is ssb my fav game: ' + smash);
 
   if(smash.toLowerCase() === 'yes' || smash.toLowerCase() === 'y'){
-    alert('Correct! I used to compete at locals with Ness');
+    alert('Correct!');
   }else if(smash.toLowerCase() === 'no' || smash.toLowerCase() === 'n'){
     alert('ERRR, it is my favorite game :)');
   }else{
